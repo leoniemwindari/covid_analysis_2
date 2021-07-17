@@ -1,4 +1,5 @@
 # COVID Analysis : Project Overview
+This project
 
 # Personal Goals :
 1. My personal goals in this project is to use dash as an interactive data visualization. Previously I only use Tableau and Google Data Studio for interactive dashboard and matplotlib for data visualization. I wanted to try to implement dash
@@ -7,15 +8,19 @@
 
 
 ## Code and Resources Used 
-**Python Version:** 3.7  
+**Python Version:** 3.8  
 **Packages:** pandas, matplotlib, plotly, dash
 
 ## Dataset
 * Source : Our World in Data - https://github.com/owid/covid-19-data/tree/master/public/data
-* Methodology : The dataset is from a survey that Kaggle did by sending invitation to the entire Kaggle commmunity. It was also promoted on the Kaggle website and Twitter. The survey was from 7-30 October 2020. 
-* Note : The questions consist of single and multiple choice questions. For the single choice questions, the answer were recorded in an individual columns. While for the multiple choice questions, the responses were split into multiple columns (with one column per answer)
+* Methodology : The dataset is from Our World in Data where they manually extracted data from WHO until 17 March 2020 and then switched to data published by European CDC from 19 March 2020 (mainly because the data in WHO shifted the reporting cutoff time, resulting an overlap between the last two WHO data releases). On 30 November 2020, they switched their data source for confirmed cases and deaths to the COVID-19 Data from Johns Hopkins University, as the EU announced that they will switch from a daily to a weekly reporting. They also added data on hospitalizations and intensive care unit (ICU) admissions of European countries, United States, Canada, and Algeria.
+
 
 ## Data Cleaning
+1. Look for missing value
+This dataset have a lot of variable and some of it have more than 80% of missing value so I decided to drop it
+2. Change the datatype
+Since I want to analyze based on time, the date variable is really important. We can see that the data types is not right so I change it into datetime types/
 
 
 ## Data Transformation
