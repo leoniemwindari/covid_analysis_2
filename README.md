@@ -1,10 +1,11 @@
 # COVID Analysis : Project Overview
 This project
 
-# Personal Goals :
+## Personal Goals :
 1. My personal goals in this project is to use dash as an interactive data visualization. Previously I only use Tableau and Google Data Studio for interactive dashboard and matplotlib for data visualization. I wanted to try to implement dash
    
 ## Questions :
+1. How one country compare to another in 
 
 
 ## Code and Resources Used 
